@@ -1,0 +1,77 @@
+/* @include responsive-font(5vw, 35px, 150px, 50px); */
+
+*, *::before, *::after {box-sizing: border-box} 
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+header {
+  margin-top: 3vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: 'Alegreya', serif;
+
+}
+
+img {
+  width: 60vw;
+}
+
+p {
+  max-width: 80vw;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+footer {
+  margin-top: 3vh;
+}
+
+@media (max-width: 320px) {
+  H1 {font-size: 2rem}
+  p {max-width: 90vw}
+  img {width: 90vw}
+}
+
+@media (min-width: 320px) {
+  h1 {font-size: 2.7rem}
+  h2 {font-size: 1.7rem}
+  p {max-width: 84vw}
+  img {width: 80vw}
+}
+
+
+@media (min-width: 1200px) {
+  h1 {font-size: 3.5rem; 
+    margin-left: 20vw;
+    margin-right: 20vw;}
+  h2 {font-size: 2rem;}
+  p {max-width: 60vw;}
+  img {width: 60vw}
+}
